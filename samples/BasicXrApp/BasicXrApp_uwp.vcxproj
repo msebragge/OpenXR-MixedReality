@@ -46,7 +46,7 @@
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.17763.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformMinVersion>10.0.20348.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
     <PackageCertificateThumbprint>D512248F114C731E8375743820EC1D51A6ADA14E</PackageCertificateThumbprint>
     <PackageCertificateKeyFile>TemporaryKey.pfx</PackageCertificateKeyFile>
@@ -56,7 +56,7 @@
     <!-- PREfast builds only compile code, not link them. Set the uwp projects to static lib to skip package generation problems. -->
     <ConfigurationType Condition="'$(LinkCompiled)'!='false'">Application</ConfigurationType>
     <ConfigurationType Condition="'$(LinkCompiled)'=='false'">StaticLibrary</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Debug'" Label="Configuration">
